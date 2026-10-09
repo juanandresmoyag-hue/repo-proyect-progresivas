@@ -1,0 +1,31 @@
+<!-- Banner de Instalación PWA & Actualizaciones -->
+<app-pwa-install-banner></app-pwa-install-banner>
+
+<!-- Barra de Navegación Superior -->
+<app-navbar></app-navbar>
+
+<!-- Vista Dinámica según Ruta -->
+<main class="main-content">
+  <router-outlet></router-outlet>
+</main>
+
+<!-- Carrito Desplegable / Drawer -->
+<app-cart-modal></app-cart-modal>
+
+<!-- Barra Móvil Inferior -->
+<app-mobile-bottom-nav></app-mobile-bottom-nav>
+
+<!-- Pie de página -->
+<footer class="app-footer">
+  <div class="container footer-content">
+    <div class="footer-brand">
+      <strong>FastOrder S.A.</strong>
+      <p>Solución Progresiva de Pedidos y Cocina Inteligente (KDS).</p>
+    </div>
+    <div class="footer-features">
+      <span>📶 100% Offline con Service Worker</span>
+      <span>⚡ Sincronización en segundo plano</span>
+      <span>🔔 Notificaciones Push en Vivo</span>
+    </div>
+  </div>
+</footer>
